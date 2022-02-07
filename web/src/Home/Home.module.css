@@ -1,0 +1,40 @@
+.popup {
+  background: #f9f9f9;
+  width: 95%;
+  padding: 7px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.free {
+  color: #2c60ab;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-div {
+  padding-left: 20px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-div {
+    padding-top: 5px;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
