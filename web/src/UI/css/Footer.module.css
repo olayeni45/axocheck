@@ -5,8 +5,8 @@ footer {
   color: white;
 }
 
-img {
-  width: 70%;
+.wrapper img {
+  width: 65%;
 }
 
 .flex {
@@ -26,16 +26,30 @@ a:hover {
 }
 
 .link {
-  padding: 5px 0;
+  padding: 4px 0;
+}
+
+.icon {
+  padding: 0 7px;
 }
 
 .healthcare {
   padding-top: 15px;
 }
 
+.social-icons {
+  display: flex;
+}
+
+.social-icons img {
+  width: 36px;
+  height: 36px;
+  margin: 8px;
+}
+
 @media (max-width: 768px) {
   footer {
-    padding: 50px 30px 30px;
+    padding: 45px;
   }
   .flex {
     display: flex;

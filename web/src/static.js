@@ -1,4 +1,4 @@
-const footerApp = [
+const footerAppLinks = [
   {
     title: "google client app",
     link: "https://play.google.com/store/apps/details?id=com.nqb8.axocheck",
@@ -17,7 +17,7 @@ const footerApp = [
   },
 ];
 
-const footerCompany = [
+const footerCompanyLinks = [
   { title: "signup", link: "/signup" },
   { title: "professional", link: "/professional" },
   { title: "media", link: "/gallery" },
@@ -26,4 +26,22 @@ const footerCompany = [
   { title: "terms and conditions", link: "/termsandconditions" },
 ];
 
-export { footerApp, footerCompany };
+const socialLinks = [
+  {
+    src: "https://axocheck.com/img/twitter.8f444fdc.svg",
+    alt: "Twitter logo",
+    link: "https://twitter.com/axocheck",
+  },
+  {
+    src: "https://axocheck.com/img/instagram.a4c95498.svg",
+    alt: "Instagram logo",
+    link: "https://www.instagram.com/axocheck/",
+  },
+  {
+    src: "https://axocheck.com/img/facebook.f47ca275.svg",
+    alt: "Facebook Logo",
+    link: "https://www.facebook.com/axocheck",
+  },
+];
+
+export { footerAppLinks, footerCompanyLinks, socialLinks };
